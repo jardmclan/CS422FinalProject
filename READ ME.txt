@@ -1,0 +1,9 @@
+In order to run this project, python version 3.x is required as well as matplotlib. Matplotlib can be installed using the procedure described here https://matplotlib.org/users/installing.html.
+Different graphs and statistics can be printed by the program by modifying the parameters of the runClusters function call in the main function:
+the first boolean parameter indicates whether to print the details of each individual clustering iteration.
+the second boolean parameter indicates whether to display graphs of the convergence of the algorithms (fitness to number of iterations) for the clusterings.
+the third boolean parameter indicates whether to display the clusters yielded by the algorithms.
+	It is important to note that this will only run for the iris data set due to limitations imposed on the number of graphs that may be displayed (the other data sets have to large a number of attribute combinations)
+	In order to use this the dataSets array should be modified to contain only "test"
+Regardless of the parameters set, the program will output the average and standard deviation for the inter-cluster and intra-cluster distances, convergence iteration, and resulting clustering fitness for each clustering algorithm and dataset
+The number of iterations the clusterings run for can be modified by changing the variable "iters"
